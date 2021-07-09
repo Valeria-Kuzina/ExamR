@@ -8,7 +8,7 @@ const Footer = (props) =>{
             <p className={isLight?s.footer__fio:`${s.footer__fio} ${s.d_footer__fio}`}>Кузина Валерия</p>
             <div className={s.foorer__info}>
                 <p className={isLight?s.footer__group:`${s.footer__group} ${s.d_footer__group}`}>191-362</p>
-                <p className={s.footer__date}>09.07.2001</p>
+                <p className={s.footer__date}>09.07.2021</p>
             </div>
             
         </div>

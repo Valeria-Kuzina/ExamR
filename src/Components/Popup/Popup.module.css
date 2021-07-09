@@ -12,10 +12,12 @@
 
   }
   .popup {
-    border: 1px black solid;
-    border-radius: 15px;
-    width: 40%;
-    min-width: 300px;
+    border: 1px #722F74;
+    box-shadow: 0 0 5px #c09fba;
+    border-radius: 20px;
+    width: 30%;
+    min-height: 300px;
+    min-width: 100px;
     background-color: rgb(255, 231, 255);
     
   }
@@ -25,6 +27,7 @@
   .popup__top {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     margin: 4%;
   }
   .popup__top button {
@@ -77,6 +80,7 @@
   }
   .theme__text{
     color: black;
+    margin-right: 10px;
   }
   .d_theme__text{
     color:white;
@@ -116,7 +120,7 @@
   background-color: gray!important;
  
 }
-.disabledButton:active{
+.disabledButton:hover{
   -webkit-animation: swing 0.6s ease;
   animation: swing 0.6s ease;
    -webkit-animation-iteration-count: 1;

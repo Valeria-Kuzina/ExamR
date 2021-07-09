@@ -7,7 +7,7 @@ let initialState = {
        {
            id:0,
            cardType:"important1",
-           name:"Не важно",
+           name:"Маловажно",
            tasksIn:0,
            tasks:[   
            ]
@@ -15,7 +15,7 @@ let initialState = {
         {
             id:1,
             cardType:"important2",
-            name:"Стоит сделать",
+            name:"Средний приоритет",
             tasksIn:0,
             tasks:[        
             ]

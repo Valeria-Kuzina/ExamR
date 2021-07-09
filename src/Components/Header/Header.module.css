@@ -13,7 +13,8 @@
     justify-content: center;
   }
   .theme__text {
-    color: blue;
+    color: #722F74;
+    font-weight: 600;
     font-size: 1.2em;
   }
   .d_theme__text{
