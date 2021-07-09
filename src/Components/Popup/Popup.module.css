@@ -16,7 +16,7 @@
     border-radius: 15px;
     width: 40%;
     min-width: 300px;
-    background-color: white;
+    background-color: rgb(255, 231, 255);
     
   }
   .d_popup{
@@ -32,12 +32,12 @@
     height: 20px;
     width: 20px;
     padding: 0;
-    border-color: rgba(0, 128, 255, 0.795);
-    background-color: rgba(0, 128, 255, 0.795);
+    border-color: #722F74;
+    background-color: #722F74;
     color: #fff;
   }
   .popup__top button:hover {
-    background-color: #077ff8;
+    background-color: #5a2d5c;
   }
   .popup__field {
     text-align: left;
@@ -46,9 +46,9 @@
   }
   .popup__field select{
       width: 100%;
-      color: #077ff8;
+      color: #722F74;
       padding: 1em;
-      border: 1px solid rgba(0, 128, 255, 0.795);
+      border: 1px solid #722F74;
       box-sizing: border-box;
   }
  .popup__field input, .popup__field button {
@@ -56,9 +56,9 @@
     width: 100%;
     box-sizing: border-box;
     border-radius: 5px;
-    color: #077ff8;
+    color: #722F74;
     padding: 1em;
-    border: 1px solid rgba(0, 128, 255, 0.795);
+    border: 1px solid #722F74;
      
   }
   .popup__field label {
@@ -72,7 +72,7 @@
   .popup__field button {
     cursor: pointer;
     margin-top: 8%;
-    background-color: rgba(0, 128, 255, 0.795);
+    background-color: #722F74;
     color: #fff;
   }
   .theme__text{
@@ -107,14 +107,13 @@
   .d_popup__field select{
     width: 100%;
     color: white;
-    background-color: rgba(30, 143, 255, 0.65);
+    background-color: #722F74;
     padding: 1em;
     border: 1px solid black;
     box-sizing: border-box;
 }
 .disabledButton{
   background-color: gray!important;
-  background-color: #077ff8;
  
 }
 .disabledButton:active{

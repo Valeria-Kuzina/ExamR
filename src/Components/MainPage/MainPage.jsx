@@ -35,9 +35,10 @@ const MainPage = (props) =>{
             />
         )
     });
+    //"important1"?"impo"
    
     return(
-        <div className={isLightTheme?s.mainPage:`${s.mainPage} ${s.d_mainPage}`}>
+        <div className={isLightTheme?`${s.mainPage}`:`${s.mainPage} ${s.d_mainPage}`}>
             <Header appTheme={props.appTheme} addTask={props.addTask} switchTheme={props.switchTheme}/>
             <div className={s.add_wrapper}>
                 <button onClick={showEditMode}className={isLightTheme?s.addButton:`${s.addButton} ${s.d_addButton}`}>Добавить задачу</button> 

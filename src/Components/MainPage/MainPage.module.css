@@ -4,7 +4,7 @@
     margin: 5% 0;
     padding: 0 10%;
     flex-wrap: wrap;
-    background-color: rgba(255, 250, 250, 0.911);
+    background-color: rgba(255, 215, 255, 0.911);
 }
 .d_columns{
   background-color: rgba(51, 51, 51, 1);
@@ -26,7 +26,7 @@
   width: 300px;
   padding: 1em;
   color: white;
-  background-color: blue;
+  background-color: #722F74;
   border-radius: 15px;
   font-size: 1em;
   margin-top: 5%;

@@ -2,24 +2,32 @@
     width: 100%;
     padding: 1em;
     margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .footer__fio{
     color: black;
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 600;
 }
 .footer__group{
     color: black;
-    font-size: 1em;
-   
+    font-size: 2em;
+  
 }
 .footer__date{
-    color: gray;
-    font-size: 1em;
+    color: #722F74;
+    font-size: 2em;
    text-decoration: underline;
+   margin-left: 5px;
+}
+.foorer__info{
+    display: flex;
 }
 .d_footer{
-    color: white!important;
+    color: rgb(255, 0, 106)!important;
 }
 .d_footer__group{
     color: white;

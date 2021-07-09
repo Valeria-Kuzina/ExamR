@@ -1,13 +1,23 @@
 .column {
-    border: 2px rgba(0, 128, 255, 0.795) solid;
+    border: 2px #722F74 solid;
     border-radius: 5px;
-    box-shadow: 0 0 5px #9b9999;
+    box-shadow: 0 0 5px #c09fba;
     word-wrap: break-word;
-    width: 30%;
-    min-width: 100px;
+   
+    min-width: 300px;
     padding: 1em;
     cursor: pointer;
   }
+.important1{
+  width: 20%;
+}
+.important2{
+  width: 30%;
+}
+.important3{
+  width: 40%;
+
+}
   .column__header {
     text-align: left;
     

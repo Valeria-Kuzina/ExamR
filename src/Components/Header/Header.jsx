@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Header.module.css';
-import logo from './logo.webp';
+import logo from './logo.png';
 
 const Header = (props) =>{
     let appTheme = props.appTheme;
@@ -18,7 +18,7 @@ const Header = (props) =>{
                             className={s.top__logo_img} src={logo} 
                             alt="logo" />
                     </div>
-                    <span className={s.top__name}>Kuzina</span>
+                    <span className={s.top__name}>KUZINA</span>
                 </div>
                 <div className={s.top__theme}>
                     <label htmlFor="switch"className={isLight?s.theme__text:`${s.theme__text} ${s.d_theme__text}`}>Темная тема</label>
