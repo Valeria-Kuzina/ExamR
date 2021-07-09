@@ -1,13 +1,14 @@
 .footer{
     width: 100%;
     padding: 1em;
-    margin-bottom: 0;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: rgba(255, 215, 255, 0.911);
 }
+
 .footer__fio{
     color: black;
     font-size: 2em;
@@ -19,7 +20,7 @@
   
 }
 .footer__date{
-    color: #722F74;
+    color: #f94aff;
     font-size: 2em;
    text-decoration: underline;
    margin-left: 5px;
@@ -28,7 +29,7 @@
     display: flex;
 }
 .d_footer{
-    color: rgb(255, 0, 106)!important;
+    background-color: rgba(51, 51, 51, 1);
 }
 .d_footer__group{
     color: white;

@@ -1,7 +1,7 @@
 .column {
     border: 5px #722F74 solid;
     border-radius: 20px;
-    box-shadow: 0 0 5px #c09fba;
+    box-shadow:  0 -40px 100px, 0 0 2px, 0 0 1em #ff17d8, 0 0 0.5em #ff3cff, 0 0 0.1em #ff59e9;
     word-wrap: break-word;
     margin-top: 1em;
     min-width: 300px;
@@ -19,11 +19,16 @@
   width: 45%;
 
 }
-  .column__header {
+.column__header {
     text-align: left;
-    
-    color: #9b9999;
-  }
+    font-weight: 600;
+    color: black;
+}
+.d_column__header {
+  text-align: left;
+  
+  color: #ff9aee;
+}
 .d_column{
   border: 2px black solid;
 }

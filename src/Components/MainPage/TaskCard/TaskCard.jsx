@@ -28,7 +28,7 @@ const CanbanCard = (props) =>{
     let tasksIn = tasksList.length;
     return(     
         <div className={appTheme==="light"?`${s.column} ${cardType==="important1"?s.important1:cardType==="important2"?s.important2:s.important3}`:`${s.column} ${s.d_column} ${cardType==="important1"?s.important1:cardType==="important2"?s.important2:s.important3}`}>
-            <h2 className={s.column__header}>{name} ({tasksIn})</h2>
+            <h2 className={appTheme==="light"?s.column__header:`${s.d_column__header}`}>{name} ({tasksIn})</h2>
             {tasksList}
         </div>
     );

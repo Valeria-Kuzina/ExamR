@@ -33,6 +33,7 @@
 }
 .d_addButton{
   background-color: black;
+  box-shadow:  0 -40px 100px, 0 0 2px, 0 0 1em #ff17d8, 0 0 0.5em #ff3cff, 0 0 0.1em #ff59e9;
 }
 
   @media (max-width:1300px) {

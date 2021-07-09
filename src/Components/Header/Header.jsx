@@ -18,7 +18,7 @@ const Header = (props) =>{
                             className={s.top__logo_img} src={logo} 
                             alt="logo" />
                     </div>
-                    <span className={s.top__name}>KUZINA</span>
+                    <span className={isLight?s.top__name:`${s.d_top__name}`}>KUZINA</span>
                 </div>
                 <div className={s.top__theme}>
                     <label htmlFor="switch"className={isLight?s.theme__text:`${s.theme__text} ${s.d_theme__text}`}>Темная тема</label>
